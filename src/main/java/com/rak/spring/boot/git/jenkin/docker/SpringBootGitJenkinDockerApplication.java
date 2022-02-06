@@ -12,7 +12,7 @@ public class SpringBootGitJenkinDockerApplication {
 	@GetMapping("/message")
 	public String getMessage() {
 
-		return "Welcome to Docker by Git Jenkin..!!";
+		return "Welcome to Spring Docker by Git Jenkin..!!";
 	}
 
 	public static void main(String[] args) {
